@@ -32,6 +32,10 @@ flowchart LR
   %% Loss
   XH --> L["Loss: compare xhat_target to x_target"]
   XT --> L
+
+  style E fill:#b8e2f2,stroke:#2c6b9c,stroke-width:2px,color:#000000
+  style G fill:#b8e2f2,stroke:#2c6b9c,stroke-width:2px,color:#000000
+  style L fill:#b8e2f2,stroke:#2c6b9c,stroke-width:2px,color:#000000
   ```
 
 ## single (one image)
@@ -57,4 +61,8 @@ flowchart LR
   %% Loss
   XH --> L["Loss: compare xhat to x"]
   X --> L
+
+  style E fill:#b8e2f2,stroke:#2c6b9c,stroke-width:2px,color:#000000
+  style G fill:#b8e2f2,stroke:#2c6b9c,stroke-width:2px,color:#000000
+  style L fill:#b8e2f2,stroke:#2c6b9c,stroke-width:2px,color:#000000
   ```
